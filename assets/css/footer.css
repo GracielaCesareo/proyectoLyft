@@ -19,26 +19,36 @@ footer{
 }
 .accesos{
 	display: inline-block;
-	padding: 60px;
+	padding: 30px;
 }
 .final{
 	margin-right: 18px;
 	padding: 0;
+
 }
 .stores li img {
 	width: 150px;
 	height: 40px;
 }
+.container_iconlist{
+	position: absolute;
+/*	bottom:280px;*/
+}
 .footerfinal{
- display: inline;
+    position: relative;
+    left: 1000px;
+    bottom: 280px;
 }
-
-hr{
-	width: 200px;
-	padding-left: 400px;
-	
-}
-
 #footerfinal{
 	padding-left: 450px;
+    position: relative;
+    bottom: 250px;
+}
+hr{
+	width: 100px;
+	padding-left: 400px;
+	position: relative;
+    right: 340px;
+    top: 45px;
+	
 }
