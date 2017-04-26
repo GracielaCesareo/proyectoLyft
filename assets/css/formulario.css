@@ -1,3 +1,21 @@
-/*.form{
-  background-image: url("");
-}*/
+.container-form{
+  float: right;
+  background: white;
+  margin-top: 100px;
+  border: 1px solid black;
+}
+
+.form{
+  padding: 30px;
+}
+
+.data{
+  display: block;
+  font-size: 15px;
+  margin: 10px;
+  border: none;
+}
+
+.neighbour{
+  display: inline;
+}
