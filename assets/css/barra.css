@@ -21,13 +21,14 @@ header {
 
 .logo {
   display: inline-block;
-  position: relative;
-  font-family: Arial Black,sans-serif;
-  font-weight: bolder;
-  font-size: 35px;
   text-align: left!important;
   list-style: none;
   margin-left: 100px;
+}
+
+#logoWhite {
+  height: 40px;
+  margin-top: 15px;
 }
 
 .space {
