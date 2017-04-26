@@ -1,8 +1,18 @@
+header {
+  width: 100%;
+  display: block;
+  background-color: #333447;
+}
+
 .bar {
   position: fixed;
-  width: 100%;
+  display: absolute;
   font-family: Helvetica,sans-serif;
+  background-position: 0 0;
   background-color: #333447;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -14,12 +24,13 @@
   font-size: 35px;
   text-align: left!important;
   list-style: none;
+  margin-left: 100px;
 }
 
 .space {
   visibility: hidden;
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 350px;
   list-style: none;
 }
 
@@ -29,6 +40,7 @@
   font-size: 20px;
   text-decoration: none;
   list-style: none;
+  margin-left: 50px;
 }
 
 .aMenu {
@@ -41,13 +53,17 @@
   color: #ff00bf;
 }
 
-.logIn {
+.logIn, .singUp {
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 8px;
 }
 
-.logIn:hover{
+/*.logIn:hover{
   background-color: rgb(255, 255, 255, 0);
   color: #FFF;
+}*/
+
+.singUp {
+  visibility: hidden;
 }
