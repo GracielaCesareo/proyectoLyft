@@ -15,7 +15,10 @@ footer{
 	padding-bottom: 5px;
 }
 .selective:hover{
-	color: rgb(198, 11, 98);
+	color: #ff00bf;
+}
+.bold:hover{
+	text-decoration: underline;
 }
 .accesos{
 	display: inline-block;
@@ -45,10 +48,9 @@ footer{
     bottom: 250px;
 }
 hr{
-	width: 100px;
+	width: 70px;
 	padding-left: 400px;
 	position: relative;
     right: 340px;
-    top: 45px;
-	
+    top: 45px;	
 }
