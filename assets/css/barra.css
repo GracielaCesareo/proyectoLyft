@@ -13,7 +13,7 @@ header {
   display: absolute;
   font-family: Helvetica,sans-serif;
   background-position: 0 0;
-  background-color: #333447;
+  color: whitesmoke;
   top: 0;
   left: 0;
   right: 0;
@@ -22,7 +22,6 @@ header {
 .logo {
   display: inline-block;
   position: relative;
-  color: #FFF;
   font-family: Arial Black,sans-serif;
   font-weight: bolder;
   font-size: 35px;
