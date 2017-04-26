@@ -12,6 +12,7 @@
   width: 500px;
   position: relative;
   left: 150px;
+  top: 100px;
 }
 #imageCellPhone {
   display: inline-block;
@@ -19,18 +20,23 @@
   max-height: 500px;
   min-width: 300px;
   max-width: 500px;
+  margin-bottom: 70px;
 }
 .divCenter {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .divText {
   display: inline-block;
+  width: 520px;
+  height: 500px;
   position: relative;
-  bottom: 200px;
+  bottom: 50px;
 }
 .textCellPhone {
   text-align: left;
   font-family: arial;
-  color: #f3f3f5
+  color: #f3f3f5;
+  font-size: 120%;
+  margin-bottom: 50px;
 }
