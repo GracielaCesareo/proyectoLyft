@@ -1,9 +1,7 @@
 footer{
 	background-color: rgb(51,52,71);
-	height: 650px;
 	font-family: Helvetica, sans-serif;
 }
-
 .texto{
 	color: white;
 	text-decoration: none;
@@ -16,10 +14,24 @@ footer{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+.selective:hover{
+	color: rgb(198, 11, 98);
+}
 .accesos{
 	display: inline-block;
+	padding: 100px;
+}
+.final{
+	margin-right: 18px;
+	padding: 0;
 }
 .stores li img {
 	width: 150px;
 	height: 40px;
+}
+#lastcolumn{
+	float: right;
+}
+.footerfinal{
+	display: block;
 }
