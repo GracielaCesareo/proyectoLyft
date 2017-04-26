@@ -1,0 +1,53 @@
+.bar {
+  position: fixed;
+  width: 100%;
+  font-family: Helvetica,sans-serif;
+  background-color: #333447;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  color: #FFF;
+  font-family: Arial Black,sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: left!important;
+  list-style: none;
+}
+
+.space {
+  visibility: hidden;
+  display: inline-block;
+  margin-left: 150px;
+  list-style: none;
+}
+
+.menu {
+  display: inline-block;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.aMenu {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.aMenu:hover {
+  color: #ff00bf;
+}
+
+.logIn {
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+}
+
+.logIn:hover{
+  background-color: rgb(255, 255, 255, 0);
+  color: #FFF;
+}
