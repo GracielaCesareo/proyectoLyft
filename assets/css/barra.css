@@ -1,3 +1,7 @@
+body {
+  height: 100%;
+  width: 100%;
+}
 header {
   width: 100%;
   display: block;
@@ -34,7 +38,7 @@ header {
   list-style: none;
 }
 
-.menu {
+.menu, .logIn, .singUp {
   display: inline-block;
   font-weight: 200;
   font-size: 20px;
@@ -43,7 +47,7 @@ header {
   margin-left: 50px;
 }
 
-.aMenu {
+.aMenu, .aLogIn {
   color: whitesmoke;
   text-decoration: none;
   padding: 10px;
@@ -57,12 +61,12 @@ header {
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 8px;
+  white-space: nowrap;
 }
 
-/*.logIn:hover{
-  background-color: rgb(255, 255, 255, 0);
-  color: #FFF;
-}*/
+.logIn:hover{
+  background-color: rgba(255,255,255,0.2);
+}
 
 .singUp {
   visibility: hidden;
