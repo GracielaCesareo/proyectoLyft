@@ -1,13 +1,36 @@
+.sectionCellphone {
+  clear: both;
+}
 .divCotainer {
   background: linear-gradient(#76278f,#2b1e66);
   width: 100%;
   height: 100%;
 }
 .divImage {
-
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 150px;
 }
 #imageCellPhone {
+  display: inline-block;
   min-height: 300px;
   max-height: 500px;
-  height: 100%;
+  min-width: 300px;
+  max-width: 500px;
+}
+.divCenter {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.divText {
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+}
+.textCellPhone {
+  text-align: left;
+  font-family: arial;
+  color: #f3f3f5
 }
