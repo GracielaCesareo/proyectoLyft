@@ -1,14 +1,15 @@
--/*.form{
-  -  background-image: url("");
-  -}*/
+
 .container-form{
-  float: right;
-  background: white;
-  margin-top: 100px;
-  border: 1px solid black;
+  height: 700px;
+  background-image: url("../img/hero-poster.jpg");
 }
 
 .form{
+  background: white;
+  color: rgb(52, 35, 130);
+  border: 1px solid black;
+  margin-top: 100px;
+  float: right;
   padding: 30px;
 }
 
@@ -19,6 +20,25 @@
   border: none;
 }
 
-.neighbour{
-  display: inline;
+.button{
+  margin-top: 15px;
+  padding: 15px 24px;
+  font-size: 18px;
+  color: white;
+  background: rgb(255, 0, 191);
+  border: 1px solid #FF00BF;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.sign-up{
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #d6d6d6;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
 }
