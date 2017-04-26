@@ -29,9 +29,16 @@ footer{
 	width: 150px;
 	height: 40px;
 }
-/*#lastcolumn{
-	float: right;
-}*/
 .footerfinal{
  display: inline;
+}
+
+hr{
+	width: 200px;
+	padding-left: 400px;
+	
+}
+
+#footerfinal{
+	padding-left: 450px;
 }
