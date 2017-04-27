@@ -31,4 +31,20 @@
 	float: right;
 	height: 500px;
 	width: 800px;
+	border: transparent;
 }
+#reproduccion2 {
+	display: none;
+	height: 500px;
+	width: 800px;
+	border: transparent;
+}
+
+#reproduccion3 {
+	display: none;
+	float: right;
+	height: 500px;
+	width: 800px;
+	border: transparent;
+}
+
