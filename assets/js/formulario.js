@@ -12,7 +12,7 @@ function navStyleEdit(){
     navBar.style.color = "#333447";
     logoWhite.style.display = "none";
     logoPink.style.display = "inline-block";
-    signUp.style.display = "inline-block";
+    signUp.style.visibility = "visible";
     // for (var i = 0, liMenu = colorMenu.length; i < liMenu; i++) {
     //   colorMenu[i].style.color = "#333447";
     // }
@@ -21,7 +21,7 @@ function navStyleEdit(){
     navBar.style.color = "whitesmoke";
     logoPink.style.display = "none";
     logoWhite.style.display = "inline-block";
-    signUp.style.display = "none";
+    signUp.style.visibility = "hidden";
     // for (var i = 0, liMenu = colorMenu.length; i < liMenu; i++) {
     //   colorMenu[i].style.color = "whitesmoke";
     // }
