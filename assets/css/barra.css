@@ -1,7 +1,9 @@
 body {
   height: 100%;
   width: 100%;
+  /*display: absolute;*/
 }
+
 header {
   width: 100%;
   display: block;
@@ -10,19 +12,19 @@ header {
 
 .bar {
   position: fixed;
-  display: absolute;
+  /*display: absolute;*/
   font-family: Helvetica,sans-serif;
   background-position: 0 0;
-  color: whitesmoke;
+  /*color: whitesmoke;*/
   top: 0;
   left: 0;
   right: 0;
 }
 
 .logo {
-  display: inline-block;
   text-align: left!important;
-  list-style: none;
+  position: absolute;
+  top: 20px;
   margin-left: 100px;
 }
 
@@ -31,10 +33,16 @@ header {
   margin-top: 15px;
 }
 
+#logoPink {
+  height: 40px;
+  margin-top: 15px;
+  display: none;
+}
+
 .space {
   visibility: hidden;
   display: inline-block;
-  margin-left: 350px;
+  margin-left: 700px;
   list-style: none;
 }
 
@@ -44,17 +52,20 @@ header {
   font-size: 20px;
   text-decoration: none;
   list-style: none;
-  margin-left: 50px;
+  margin: 20px 0 0 30px;
 }
 
-.aMenu, .aLogIn {
-  color: whitesmoke;
+.aMenu, .aLogIn, .aSingUp {
+  /*color: whitesmoke;*/
   text-decoration: none;
   padding: 10px;
 }
 
 .aMenu:hover {
   color: #ff00bf;
+}
+.colorMenu {
+    color: whitesmoke;
 }
 
 .logIn, .singUp {
@@ -69,5 +80,10 @@ header {
 }
 
 .singUp {
-  visibility: hidden;
+  border: 2px solid #ff00bf;
+  display: none;
+}
+
+.aSingUp {
+  color: #ff00bf;
 }
