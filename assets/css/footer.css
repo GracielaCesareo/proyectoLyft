@@ -3,6 +3,7 @@ footer{
 	font-family: Helvetica, sans-serif;
 	position: absolute;
 	width: 100%;
+	color: white;
 }
 .texto{
 	color: white;
@@ -16,12 +17,11 @@ footer{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.selective:hover{
-	color: #ff00bf;
-}
-.bold:hover{
+
+.underline:hover {
 	text-decoration: underline;
 }
+
 .accesos{
 	display: inline-block;
 	padding: 30px;
@@ -29,7 +29,6 @@ footer{
 .final{
 	margin-right: 18px;
 	padding: 0;
-
 }
 .stores li img {
 	width: 150px;
@@ -38,18 +37,20 @@ footer{
 .container_iconlist {
 	display: inline-block;
 	position: absolute;
-	right: 300px;
+	left: 900px;
 	top: 80px;
 }
-#footerfinal{
+#footerfinal-icons, #footerfinal-credits{
 	display: block;
 	position: relative;
-	left: 300px;
-	bottom: 10px;
+	left: 500px;
+}
+#footerfinal-credits {
+	left: 400px;
 }
 hr{
-	width: 70px;
-	padding-left: 250px;
+	width: 40%;
 	position: absolute;
-	top: 23px;
+	top: 445px;
+	left: 300px;
 }
