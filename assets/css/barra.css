@@ -1,6 +1,7 @@
 body {
   height: 100%;
   width: 100%;
+  display: absolute;
 }
 header {
   width: 100%;
@@ -20,9 +21,9 @@ header {
 }
 
 .logo {
-  display: inline-block;
   text-align: left!important;
-  list-style: none;
+  position: absolute;
+  top: 20px;
   margin-left: 100px;
 }
 
@@ -40,7 +41,7 @@ header {
 .space {
   visibility: hidden;
   display: inline-block;
-  margin-left: 350px;
+  margin-left: 700px;
   list-style: none;
 }
 
@@ -50,10 +51,11 @@ header {
   font-size: 20px;
   text-decoration: none;
   list-style: none;
-  margin-left: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
-.aMenu, .aLogIn {
+.aMenu, .aLogIn, .aSingUp {
   color: whitesmoke;
   text-decoration: none;
   padding: 10px;
@@ -75,5 +77,10 @@ header {
 }
 
 .singUp {
-  visibility: hidden;
+  border: 2px solid #ff00bf;
+  display: none;
+}
+
+.aSingUp {
+  color: #ff00bf;
 }
