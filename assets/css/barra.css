@@ -53,7 +53,7 @@ header {
   margin-left: 50px;
 }
 
-.aMenu, .aLogIn {
+.aMenu, .aLogIn, .aSingUp {
   color: whitesmoke;
   text-decoration: none;
   padding: 10px;
@@ -75,5 +75,10 @@ header {
 }
 
 .singUp {
-  visibility: hidden;
+  border: 2px solid #ff00bf;
+  display: none;
+}
+
+.aSingUp {
+  color: #ff00bf;
 }
