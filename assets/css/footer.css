@@ -17,7 +17,6 @@ footer{
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-
 .underline:hover {
 	text-decoration: underline;
 }
@@ -38,19 +37,28 @@ footer{
 	display: inline-block;
 	position: absolute;
 	left: 900px;
-	top: 80px;
+	top: -50px;
 }
 #footerfinal-icons, #footerfinal-credits{
 	display: block;
 	position: relative;
-	left: 500px;
+	left: 450px;
 }
 #footerfinal-credits {
-	left: 400px;
+	left: 375px;
 }
 hr{
 	width: 40%;
 	position: absolute;
 	top: 445px;
 	left: 300px;
+}
+
+.footer_ul1, .footer_ul2 {
+	position: absolute;
+	top:0px;
+}
+
+.footer_ul2 {
+	left: 550px;
 }
