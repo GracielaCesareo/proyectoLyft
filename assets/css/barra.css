@@ -31,6 +31,12 @@ header {
   margin-top: 15px;
 }
 
+#logoPink {
+  height: 40px;
+  margin-top: 15px;
+  display: none;
+}
+
 .space {
   visibility: hidden;
   display: inline-block;
