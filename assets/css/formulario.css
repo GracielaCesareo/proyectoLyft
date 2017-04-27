@@ -1,8 +1,62 @@
-
 .container-form{
   height: 700px;
   background-image: url("../img/hero-poster.jpg");
+  /*display: -webkit-flex;
+  display: flex;*/
 }
+
+.data-box{
+  float: right;
+  margin-top: 110px;
+  margin-right: 25px;
+  border: 1px solid #352384;
+  width: 500px;
+  height: 550px;
+  background-color: white;
+}
+
+.letters{
+  /*border: 1px solid #352384;*/
+  font-family: "Helvetica";
+  font-size: 35px;
+  color: #352384;
+  letter-spacing: 3px;
+}
+
+.tarara{
+  margin: 20px 0 0 25px;
+}
+
+.into{
+  margin: 0px 0 0 25px;
+}
+
+#sign-up{
+  font-size: 15px;
+  margin: 10px 0 0 25px;
+}
+
+.phone-number, .data{
+  border: none;
+  border-bottom: 1px solid #352384;
+  width: 450px;
+  margin: 30px 0 0 25px;
+}
+
+::placeholder{
+  font-size: 20px;
+}
+
+input{
+  height: 40px;
+  font-size: 20px;
+}
+
+.first-name, .last-name{
+  width: 200px;
+}
+
+/*
 
 .form{
   background: white;
@@ -41,4 +95,4 @@
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-}
+}*/
