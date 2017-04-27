@@ -1,8 +1,9 @@
 body {
   height: 100%;
   width: 100%;
-  display: absolute;
+  /*display: absolute;*/
 }
+
 header {
   width: 100%;
   display: block;
@@ -11,10 +12,10 @@ header {
 
 .bar {
   position: fixed;
-  display: absolute;
+  /*display: absolute;*/
   font-family: Helvetica,sans-serif;
   background-position: 0 0;
-  color: whitesmoke;
+  /*color: whitesmoke;*/
   top: 0;
   left: 0;
   right: 0;
@@ -51,18 +52,20 @@ header {
   font-size: 20px;
   text-decoration: none;
   list-style: none;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin: 20px 0 0 30px;
 }
 
 .aMenu, .aLogIn, .aSingUp {
-  color: whitesmoke;
+  /*color: whitesmoke;*/
   text-decoration: none;
   padding: 10px;
 }
 
 .aMenu:hover {
   color: #ff00bf;
+}
+.colorMenu {
+    color: whitesmoke;
 }
 
 .logIn, .singUp {
