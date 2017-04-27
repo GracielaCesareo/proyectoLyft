@@ -42,20 +42,20 @@ header {
 .space {
   visibility: hidden;
   display: inline-block;
-  margin-left: 700px;
+  margin-left: 55%;
   list-style: none;
 }
 
-.menu, .logIn, .singUp {
+.menu, .logIn, .signUp {
   display: inline-block;
   font-weight: 200;
   font-size: 20px;
   text-decoration: none;
   list-style: none;
-  margin: 20px 0 0 30px;
+  margin: 20px 0 0 20px;
 }
 
-.aMenu, .aLogIn, .aSingUp {
+.aMenu, .aLogIn, .aSignUp {
   /*color: whitesmoke;*/
   text-decoration: none;
   padding: 10px;
@@ -68,7 +68,7 @@ header {
     color: whitesmoke;
 }
 
-.logIn, .singUp {
+.logIn, .signUp {
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 8px;
@@ -79,11 +79,20 @@ header {
   background-color: rgba(255,255,255,0.2);
 }
 
-.singUp {
+.signUp {
   border: 2px solid #ff00bf;
   display: none;
 }
 
-.aSingUp {
+.aSignUp {
   color: #ff00bf;
+}
+
+
+.cambioColor {
+  transition: color 0s linear 0s;
+    transition-property: color;
+    transition-duration: 0s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
 }
