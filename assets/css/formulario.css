@@ -1,8 +1,41 @@
-
 .container-form{
   height: 700px;
   background-image: url("../img/hero-poster.jpg");
 }
+
+.data-box{
+  float: right;
+  margin-top: 150px;
+  margin-right: 25px;
+  border: 1px solid #352384;
+  display: -webkit-flex;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+/*No se si esto sea necesario*/
+.register{
+  border: 1px solid #352384;
+  margin: 40px;
+  width: 490px;
+}
+
+.letters{
+  border: 1px solid #352384;
+  font-family: "Helvetica";
+  margin: 5px;
+  font-size: 35px;
+  color: #352384;
+  letter-spacing: 2px;
+}
+
+#sign-up{
+  font-size: 15px;
+}
+
+/*
 
 .form{
   background: white;
@@ -41,4 +74,4 @@
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-}
+}*/
