@@ -39,11 +39,8 @@ header {
   display: none;
 }
 
-.space {
-  visibility: hidden;
-  display: inline-block;
-  margin-left: 55%;
-  list-style: none;
+.floatRight {
+  float: right;
 }
 
 .menu, .logIn, .signUp {
@@ -81,18 +78,9 @@ header {
 
 .signUp {
   border: 2px solid #ff00bf;
-  display: none;
+  visibility: hidden;
 }
 
 .aSignUp {
   color: #ff00bf;
-}
-
-
-.cambioColor {
-  transition: color 0s linear 0s;
-    transition-property: color;
-    transition-duration: 0s;
-    transition-timing-function: linear;
-    transition-delay: 0s;
 }
