@@ -1,21 +1,17 @@
 body {
   height: 100%;
   width: 100%;
-  /*display: absolute;*/
 }
 
 header {
   width: 100%;
   display: block;
-  background-color: #333447;
 }
 
 .bar {
   position: fixed;
-  /*display: absolute;*/
   font-family: Helvetica,sans-serif;
   background-position: 0 0;
-  /*color: whitesmoke;*/
   top: 0;
   left: 0;
   right: 0;
@@ -39,11 +35,8 @@ header {
   display: none;
 }
 
-.space {
-  visibility: hidden;
-  display: inline-block;
-  margin-left: 55%;
-  list-style: none;
+.floatRight {
+  float: right;
 }
 
 .menu, .logIn, .signUp {
@@ -56,7 +49,6 @@ header {
 }
 
 .aMenu, .aLogIn, .aSignUp {
-  /*color: whitesmoke;*/
   text-decoration: none;
   padding: 10px;
 }
@@ -64,6 +56,7 @@ header {
 .aMenu:hover {
   color: #ff00bf;
 }
+
 .colorMenu {
     color: whitesmoke;
 }
@@ -79,20 +72,15 @@ header {
   background-color: rgba(255,255,255,0.2);
 }
 
+.changeColor li a {
+  color: #333447;
+}
+
 .signUp {
   border: 2px solid #ff00bf;
-  display: none;
+  visibility: hidden;
 }
 
 .aSignUp {
-  color: #ff00bf;
-}
-
-
-.cambioColor {
-  transition: color 0s linear 0s;
-    transition-property: color;
-    transition-duration: 0s;
-    transition-timing-function: linear;
-    transition-delay: 0s;
+  color: #ff00bf!important;
 }

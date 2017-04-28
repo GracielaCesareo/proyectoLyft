@@ -1,22 +1,28 @@
-var inicia=document.getElementById("corre");
-console.log(inicia);
-inicia.addEventListener("click",creariframe);
+	var inicia=document.getElementById("corre");
+	inicia.addEventListener("click",creariframe);
+	var inicia2=document.getElementById("corre2");
+	inicia2.addEventListener("click",creariframe2);
+	var inicia3=document.getElementById("corre3");
+	inicia3.addEventListener("click",creariframe3);
 
-function play() {
-	document.getElementById('miaudio').play();
-	console.log(inicia);
-}
+	//iframes
+	var iframe=document.getElementById("reproduccion");
+	var iframe2=document.getElementById("reproduccion2");
+	var iframe3=document.getElementById("reproduccion3");
 
-function creariframe(){
-	   inicia.style.display = 'none';
-    //crear elemento
-    var selector = document.getElementById('contenedor_frame');
-    console.log(selector);
-    var iframe = document.createElement('iframe');
 
-    //propiedades iframe
-    iframe.setAttribute('src','https://www.youtube.com/embed/fLSmUWOYpKw?autoplay=1');
-
-    //insertar iframe
-    selector.appendChild(iframe);
-}
+	function creariframe(){
+		inicia.style.display = 'none';
+		iframe.style.display = "block";
+		iframe.setAttribute('src','https://www.youtube.com/embed/fLSmUWOYpKw?autoplay=1');
+	}
+	function creariframe2(){
+		inicia2.style.display = 'none';
+		iframe2.style.display = "block";
+		iframe2.setAttribute('src','https://www.youtube.com/embed/v8nyGzOLsdw?autoplay=1');
+	}
+	function creariframe3(){
+		inicia3.style.display = 'none';
+		iframe3.style.display = "block";
+		iframe3.setAttribute('src','https://www.youtube.com/embed/xj2VWLV0xCU?autoplay=1');
+	}
