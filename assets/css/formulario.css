@@ -1,6 +1,7 @@
 .container-form{
   height: 700px;
   background-image: url("../img/hero-poster.jpg");
+  background-repeat: no-repeat;
   /*display: -webkit-flex;
   display: flex;*/
 }
@@ -39,8 +40,8 @@
 .phone-number, .data{
   border: none;
   border-bottom: 1px solid #352384;
-  width: 450px;
-  margin: 30px 0 0 25px;
+  width: 445px;
+  margin: 10px 0 0 25px;
 }
 
 ::placeholder{
@@ -52,30 +53,49 @@ input{
   font-size: 20px;
 }
 
-.first-name, .last-name{
-  width: 200px;
+.first-middle, .last-middle{
+  width: 206px;
 }
 
-/*
-
-.form{
-  background: white;
-  color: rgb(52, 35, 130);
-  border: 1px solid black;
-  margin-top: 100px;
-  float: right;
-  padding: 30px;
+.promoCode{
+  display: inline;
+  font-family: "Helvetica";
+  color: #c2c2c2;
+  margin: 30px;
+  text-decoration: underline;
 }
 
-.data{
-  display: block;
-  font-size: 15px;
-  margin: 10px;
+.promoCode:hover{
+  color: #b8138f;
+}
+
+.promo{
+  margin: -54px 0 0 236px;
   border: none;
+  width: 215px;
+}
+
+.check{
+  display: inline;
+  padding: 0;
+  font-family: "Helvetica";
+  font-size: 11px;
+  margin: 10px 30px 5px 25px;
+}
+
+.pink{
+  color: #ff00bf;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.pink:hover{
+  color: #b8138f;
 }
 
 .button{
   margin-top: 15px;
+  margin-left: 25px;
   padding: 15px 24px;
   font-size: 18px;
   color: white;
@@ -88,11 +108,19 @@ input{
 
 .sign-up{
   padding: 10px 15px;
-  font-size: 13px;
-  color: #d6d6d6;
+  font-size: 15px;
+  color: #828fa5;
   background: white;
+  text-decoration: underline;
   border: 1px solid white;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-}*/
+}
+
+.invitation{
+  font-family: "Helvetica";
+  font-size: 10px;
+  color: #828fa5;
+  margin: 30px;
+}
