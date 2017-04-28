@@ -3,10 +3,7 @@ footer{
 	font-family: Helvetica, sans-serif;
 	width: 100%;
 	color: white;
-}
-.container_footlist {
 	position: absolute;
-	left: 0px;
 }
 .texto{
 	color: white;
@@ -53,7 +50,7 @@ footer{
 hr{
 	width: 40%;
 	position: absolute;
-	top: 50px;
+	top: 445px;
 	left: 300px;
 }
 
