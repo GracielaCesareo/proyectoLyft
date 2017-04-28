@@ -1,15 +1,64 @@
 footer{
 	background-color: rgb(51,52,71);
-	height: 650px;
 	font-family: Helvetica, sans-serif;
+	position: absolute;
+	width: 100%;
+	color: white;
 }
-
 .texto{
 	color: white;
 	text-decoration: none;
 }
+.container_footlist{
+	display: inline;
+}
 .footer_lista{
 	list-style: none;
 	padding-top: 5px;
-	padding-bottom: 5px; 
+	padding-bottom: 5px;
+}
+.underline:hover {
+	text-decoration: underline;
+}
+
+.accesos{
+	display: inline-block;
+	padding: 30px;
+}
+.final{
+	margin-right: 18px;
+	padding: 0;
+}
+.stores li img {
+	width: 150px;
+	height: 40px;
+}
+.container_iconlist {
+	display: inline-block;
+	position: absolute;
+	left: 900px;
+	top: -50px;
+}
+#footerfinal-icons, #footerfinal-credits{
+	display: block;
+	position: relative;
+	left: 450px;
+}
+#footerfinal-credits {
+	left: 375px;
+}
+hr{
+	width: 40%;
+	position: absolute;
+	top: 445px;
+	left: 300px;
+}
+
+.footer_ul1, .footer_ul2 {
+	position: absolute;
+	top:0px;
+}
+
+.footer_ul2 {
+	left: 550px;
 }

@@ -1,24 +1,71 @@
 .container{
+	display: inline-block;
 	width: 100%;
 	height: 100%;
-	background-color: grey;
-	display: inline-block;
 }
-.video{
-
-	position: relative;
-	
+.textVideo{
+	background-color: white;
+	font-family: "Helvetica";
+	color: #333447;
+	width: 300px;
+	height: 50px;
+	letter-spacing: 1.5px;
+	margin-left: 30px;
 }
-.text{
-	position: absolute;
+.image{
+	width: 899px;
+	height: 506px;
+	float:right;
+	margin-top: -66px;
+}
+.textVideo2{
 	background-color: white;
 	width: 300px;
 	height: 50px;
 	letter-spacing: 1.5px;
+	margin-left: 1000px;
+	font-family: "Helvetica";
+	color: #333447;
 }
-.image{
-	position: absolute;
-	width: 800px;
-	height: 500px;
-	margin-left: 500px;
+.image2{
+	width: 899px;
+	height: 506px;
+}
+
+#reproduccion {
+	display: none;
+	float: right;
+	height: 506px;
+	width: 899px;
+	border: transparent;
+	margin-top: -66px
+}
+#reproduccion2 {
+	display: none;
+	height: 506px;
+	width: 899px;
+	border: transparent;
+}
+
+#reproduccion3 {
+	display: none;
+	float: right;
+	height: 506px;
+	width: 899px;
+	border: transparent;
+	margin-top: -66px
+}
+
+.title{
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: .5rem;
+	line-height: 1.5;
+}
+.text_title{
+	font-size: 28px;
+	font-weight: bold;
+}
+.text_video1{
+	font-size: 16px;
 }

@@ -1,3 +1,126 @@
-/*.form{
-  background-image: url("");
-}*/
+.container-form{
+  height: 700px;
+  background-image: url("../img/hero-poster.jpg");
+  background-repeat: no-repeat;
+  /*display: -webkit-flex;
+  display: flex;*/
+}
+
+.data-box{
+  float: right;
+  margin-top: 110px;
+  margin-right: 25px;
+  border: 1px solid #352384;
+  width: 500px;
+  height: 550px;
+  background-color: white;
+}
+
+.letters{
+  /*border: 1px solid #352384;*/
+  font-family: "Helvetica";
+  font-size: 35px;
+  color: #352384;
+  letter-spacing: 3px;
+}
+
+.tarara{
+  margin: 20px 0 0 25px;
+}
+
+.into{
+  margin: 0px 0 0 25px;
+}
+
+#sign-up{
+  font-size: 15px;
+  margin: 10px 0 0 25px;
+}
+
+.phone-number, .data{
+  border: none;
+  border-bottom: 1px solid #352384;
+  width: 445px;
+  margin: 10px 0 0 25px;
+}
+
+::placeholder{
+  font-size: 20px;
+}
+
+input{
+  height: 40px;
+  font-size: 20px;
+}
+
+.first-middle, .last-middle{
+  width: 206px;
+}
+
+.promoCode{
+  display: inline;
+  font-family: "Helvetica";
+  color: #c2c2c2;
+  margin: 30px;
+  text-decoration: underline;
+}
+
+.promoCode:hover{
+  color: #b8138f;
+}
+
+.promo{
+  margin: -54px 0 0 236px;
+  border: none;
+  width: 215px;
+}
+
+.check{
+  display: inline;
+  padding: 0;
+  font-family: "Helvetica";
+  font-size: 11px;
+  margin: 10px 30px 5px 25px;
+}
+
+.pink{
+  color: #ff00bf;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.pink:hover{
+  color: #b8138f;
+}
+
+.button{
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 15px 24px;
+  font-size: 18px;
+  color: white;
+  background: rgb(255, 0, 191);
+  border: 1px solid #FF00BF;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.sign-up{
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #828fa5;
+  background: white;
+  text-decoration: underline;
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.invitation{
+  font-family: "Helvetica";
+  font-size: 10px;
+  color: #828fa5;
+  margin: 30px;
+}

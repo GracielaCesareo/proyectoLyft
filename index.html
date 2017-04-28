@@ -6,55 +6,62 @@
     <link rel="stylesheet" href="assets/css/formulario.css">
     <link rel="stylesheet" href="assets/css/telefono.css">
     <link rel="stylesheet" href="assets/css/videos.css">
+    <link rel="stylesheet" href="assets/css/productos.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <title>Proyecto Lyft</title>
   </head>
   <body>
     <!--Barra de navegacion -->
-    <nav class="bar">
-      <ul>
-        <li class="logo">lyft </li>
-        <li class="space"></li>
+    <header>
+      <nav id="navBar" class="bar">
+        <a href="#">
+          <img id="logoWhite" class="logo" src="assets/img/logo-white.png">
+          <img id="logoPink" class="logo" src="assets/img/logo-pink.png">
+        </a>
+        <ul class="floatRight">
 
 
-      
-        <li class="menu"><a href="" class="aMenu"> Drive </a></li>
-        <li class="menu"><a href="" class="aMenu"> Explore </a></li>
-        <li class="menu"><a href="" class="aMenu"> Help </a></li>
-        <li class="menu logIn"><a href="" class=" aMenu aLogIn"> Log in </a></li>
 
-      </ul>
-    </nav>
+          <li class="menu"><a href="#" class="aMenu colorMenu"> Drive </a></li>
+          <li class="menu"><a href="#" class="aMenu colorMenu"> Explore </a></li>
+          <li class="menu"><a href="#" class="aMenu colorMenu"> Help </a></li>
+          <li class="logIn"><a href="#" class="aLogIn colorMenu"> Log in </a></li>
+          <li class="signUp"><a href="#" class="aSignUp"> Sign up </a></li>
+        </ul>
+      </nav>
+    </header>
     <!--Formulario-->
-    <section class="form">
-      <div>
-        <h1>TURN MILES</h1>
-        <h2>INTO MONEY</h2>
-        <p>SIGN UP TO DRIVE WITH LYFT</p>
-        <form class="">
+    <section class="container-form">
+      <div class="data-box">
           <div>
-            <input type="text" id="phone">
-            <label for="phone" placeholder="Phone number"></label>
-            <input type="text" id="first-name">
-            <label for="first-name" placeholder="Phone number"></label>
-            <input type="text" id="last-name">
-            <label for="last-name" placeholder="Phone number"></label>
-            <input type="text" id="email">
-            <label for="email" placeholder="Phone number"></label>
-            <input type="text" id="city">
-            <label for="city" placeholder="Phone number"></label>
-            <input type="text" id="promo-code">
-            <label for="promo-code" placeholder="Phone number"></label>
+            <h1 class="letters tarara" >TURN MILES</h1>
+            <h2 class="letters into">INTO MONEY</h2>
+            <p class="letters" id="sign-up">SIGN UP TO DRIVE WITH LYFT</p>
+          </div>
+          <div class="phone">
+            <input type="text" class="phone-number" placeholder="Phone number">
+          </div>
+          <div class="secret">
+            <input type="text" class="data first-middle" placeholder="First name">
+            <input type="text" class="data last-middle" placeholder="Last name">
+            <input type="text" class="data" placeholder="Email">
+            <input type="text" class="data first-middle" placeholder="City">
+            <p class="secret promoCode last-middle">Promo code?</p>
+          </div>
+          <div class="secret promo">
+            <input type="text" class="data last-middle" placeholder="Promo code">
+          </div>
+          <div class="check">
+            <input type="checkbox" class="jaja" value="false">
+            <span class="terms">I agree to<a class="pink" href="https://www.lyft.com/terms">Lyft's Terms of Service</a></span>
           </div>
           <div>
-            <input type="checkbox">
-            <span>I agree to Lyft's Terms of Service</span>
+            <button class="button">Become a Driver</button>
+            <button class="sign-up aMenu">Sign Up to Ride</button>
           </div>
-          <div>
-            <button>Become a Driver</button>
-            <button>Sign Up to Ride</button>
-          </div>
-          <div>  <p>Already applied? <a href="">Check the status of your application</a></p><p></p>
+          <div class="invitation">
+            <p>Already applied? <a class="pink" href="https://www.lyft.com/drivers/apply/resume">Check the status of your application</a></p>
+            <p>Earn money for inviting friends to drive. <a class="pink" href="https://www.lyft.com/drive/referrals">Learn more</a></p>
           </div>
       </div>
 
@@ -83,25 +90,27 @@
 
 
 
-
-      </form>
     </section>
     <!--Telefono -->
     <section class="sectionCellphone">
       <div class="divCotainer">
-        <div class="divCentER">
+        <div class="divCenter">
           <div class="divText">
-            <div class="text">
-              <h3></h3>
-              <p></p>
+            <div class="textCellPhone">
+              <h3>A RIDE IN MINUTES</h3>
+              <p>Request a ride and you'll be on your way in minutes.
+                <br>
+                Request. Ride. Repeat.</p>
             </div>
-            <div class="text">
-              <h3></h3>
-              <p></p>
+            <div class="textCellPhone">
+              <h3>SERIOUS ABOUT SAFETY</h3>
+              <p>From knowing the color of your driver's car to our 24/7
+              Trust & Safety Team, we got you.</p>
             </div>
-            <div class="text">
-              <h3></h3>
-              <p></p>
+            <div class="textCellPhone">
+              <h3>HAPPY DRIVERS.<br>HAPPY RIDERS.</h3>
+              <p>Ride with us and you'll see why 9 out of 10 rides end
+              with five stars</p>
             </div>
           </div>
           <div class="divImage">
@@ -109,26 +118,48 @@
           </div>
         </div>
       </div>
+    </section>
+    <!--videos -->
+    <section class="container">
 
+        <div class="textVideo">
+          <p class="title">WATCH</p>
+          <h3 class="text_title">AMPLIFY YOUR RIDE</h3>
+          <p class="text_video1">Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide,
+            the device makes it easy for passengers and drivers to find each other.
+          </p>
+      </div>
+        <div id="contenedor_frame">
+          <img id="corre"  class="image" src="assets/img/img1.png">
+          <iframe id="reproduccion"></iframe>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="video">
+        <div class="textVideo2">
+          <p class="title">WATCH</p>
+          <h3 class="text_title">JUNE</h3>
+          <p class="text_video1">In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic
+            South Chicago is empowered to start sharing the ride — and sharing her life, too.
+          </p>
+        </div>
+          <div>
+            <img id="corre2" class="image2" src="assets/img/img2.png">
+            <iframe id="reproduccion2"></iframe>
+          </div>
+      </div>
+      <div class="video">
+        <div class="textVideo">
+          <p class="title">WATCH</p>
+          <h3 class="text_title">A GOOD THING GOING</h3>
+          <p class="text_video1">Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize
+            happy drivers, short ETAs, and safety.
+          </p>
+        </div>
+          <div>
+            <img id="corre3" class="image" src="assets/img/img3.png">
+            <iframe id="reproduccion3"></iframe>
+          </div>
+      </div>
 
 
 
@@ -145,133 +176,121 @@
 
 
     </section>
-    <!--videos -->
-    <section>
-      <div class="video">
-  <div class="text">
-  <p>Watch</p>
-    <h3>AMPLIFY YOUR RIDE</h3>
-    <p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide,
-                the device makes it easy for passengers and drivers to find each other.
-                </p>
-  </div>
-    <div>
-      <img  class="image" src="img1.png">
-    </div>
 
-</div>
-      <div class="">
-
+    <!-- Productos -->
+    <section class="seccionProductos">
+      <div class="contenedorProductoYNews">
+        <div class="contenedorProductos margenProductosLeft">
+            <p class="" data-reactid="172">PRODUCT</p>
+            <h3 class="titulitoProductos">NOW LIVE: SCHEDULED RIDES</h3>
+            <p class="sizeProductos parrafoProductos">Now you can schedule Lyft rides up to seven days in advance
+              and relax knowing your ride will be there when you need it.
+              Whether you’re catching a flight or a show across town, you’ll
+              have one less thing to worry about</p>
+            <a class="botonProductos" href="http://blog.lyft.com/posts/2016/9/12/now-live-scheduled-rides?rq=scheduled%20rides">
+            <strong>Learn More</strong></a>
+        </div>
+        <div class="contenedorProductos margenProductosRight">
+           <p class="" data-reactid="172">NEWS</p>
+           <h3 class="titulitoProductos">SIT FOR SOMETHING</h3>
+           <p class="sizeProductos parrafoProductos">Taking a seat can make a difference. What if we leveraged this
+            opportunity to accomplish more? What if we harnessed the collective
+             might of our community? Starting in a few weeks, Lyft will be
+             launching a new feature called Round Up and Donate.</p>
+           <a class="botonProductos" href="https://blog.lyft.com/posts/sit-for-something"><strong>Learn More</strong></a>
+        </div>
       </div>
-      <div class="">
-
-
-
+      <div class="cuadroAzulProductos">
+        <div class="contenedoresProductos positionImagenProductos">
+          <img src="https://cdn.lyft.com/brochure/location-pin.2792d80b.svg" alt="" class="tamañoImagenProductos">
+        </div>
+        <div class="contenedoresProductos posicionInputProductos">
+          <h3 class="textoProductos">FIND LYFT IN YOUR CITY</h3>
+          <br>
+          <input type="text" name="region" autocomplete="nope" id="find-your-city" placeholder="Find a City" class= data-reactid="196">
+          <br>
+          <br>
+          <a class="linkProductos" href="#">See airports we serve</a>
+        </div>
+        <div class="clearProductos">
+        </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
     <!--Footer -->
     <footer>
-      <div id="container_footlist">
-        <div id="footer-col-1">
-          <ul>
-            <li class="footer_lista"><a class="texto" href="#"><h4>RIDE</h4></a></li>
-            <li class="footer_lista"><a class="texto" href="#"><h4>LOG IN</h4></a></li>
-          </ul>
-          <ul>
-            <li class="footer_lista"><a class="texto" href="#">Help</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Cities</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Airports</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Fare Estimate</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Free Ride Credits</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Driver Promo</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Gift Cards</a></li>
-          </ul>
-        </div>
-        <div id="footer-col-2">
-          <ul>
-            <li class="footer_lista"><a class="texto" href="#">Business</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Ambassadors</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Developers</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Events</a></li>
-          </ul>
-        </div>
-        <div id="footer-col-3">
-          <ul>
-            <li class="footer_lista"><a class="texto" href="#">Blog</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Press</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Careers</a></li>
-            <li class="footer_lista"><a class="texto" href="#">Driver Requirements</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="footer-col4-icons">
-        <ul>
-          <li class="footer_lista"><img src=""></li>
-          <li class="footer_lista"><img src=""></li>
-          <li class="footer_lista"><img src=""></li>
-          <li class="footer_lista"><img src=""></li>
-        </ul>
-      </div>
-      <div id="footerfinal">
-        <ul id="footerfinal-icons">
-          <li class="footer_lista"><img src=""></li>
-          <li class="footer_lista"><img src=""></li>
-          <li class="footer_lista"><img src=""></li>
-        </ul>
-        <hr id="footer_line" />
-        <ul id="footerfinal-credits">
-          <li class="footer_lista" class="texto">2017 Lyft Inc.</li>
-          <li class="footer_lista"><a class="texto" href="">Terms</a></li>
-          <li class="footer_lista"><a class="texto" href="">Privancy</a></li>
-        </ul>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </footer>
-    <script type="javascript" src="assets/js/formulario.js"></script>
-    <script type="javascript" src="assets/js/videos.js"></script>
+     <div id="container_footlist">
+       <div class="accesos">
+         <ul>
+           <h4 class="texto"><a class="texto underline" href="#">DRIVE</a></h4>
+           <h4 class="texto"><a class="texto underline" href="#">RIDE</a></h4>
+           <h4 class="texto"><a class="texto underline" href="#">LOG IN</a></h4>
+         </ul>
+         <ul>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Help</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Cities</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Airports</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Fare Estimate</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Free Ride Credits</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Driver Promo</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Gift Cards</a></li>
+         </ul>
+       </div>
+       <div class="accesos">
+         <ul class="footer_ul1">
+           <h4 class="texto"><a class="texto" href="#">PARTNER</a></h4>
+           <li class="footer_lista texto aMenu underline">Partnerships</li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Business</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Ambassadors</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Developers</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Events</a></li>
+         </ul>
+       </div>
+       <div id="lastcolumn" class="accesos">
+           <ul class="footer_ul2">
+           <h4 class="texto"><a class="texto underline" href="#">LEARN</a></h4>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Blog</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Press</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Careers</a></li>
+           <li class="footer_lista"><a class="texto aMenu underline" href="#">Driver Requirements</a></li>
+         </ul>
+       </div>
+     </div>
+     <div class="container_iconlist accesos footerfinal">
+       <ul class="stores accesos">
+         <li class="footer_lista"><img src="assets/img/apple-store (1).svg"></li>
+         <li class="footer_lista"><img src="assets/img/google-play.png"></li>
+         <li class="footer_lista"><img src="assets/img/microsoft.png"></li>
+       </ul>
+     </div>
+     <div id="footerfinal">
+       <hr/>
+       <ul id="footerfinal-icons">
+         <li class="footer_lista accesos final"><img src="assets/img/twitter-logo.png"></li>
+         <li class="footer_lista accesos final"><img src="assets/img/facebook-logo.png"></li>
+         <li class="footer_lista accesos final"><img src="assets/img/instagram-logo.png"></li>
+       </ul>
+       <ul id="footerfinal-credits">
+         <li class="footer_lista accesos final" class="texto"><span class="texto">2017 Lyft Inc.</span></li>
+         <li class="footer_lista accesos final bold"><a class="texto selective" href="">Terms</a></li>
+         <li class="footer_lista accesos final bold"><a class="texto selective" href="">Privacy</a></li>
+       </ul>
+     </div>
+   </footer>
+    <script type="text/javascript" src="assets/js/formulario.js"></script>
+    <script type="text/javascript" src="assets/js/videos.js"></script>
   </body>
 </html>

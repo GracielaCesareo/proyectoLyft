@@ -1,38 +1,59 @@
-.bar {
-  position: fixed;
+body {
+  height: 100%;
   width: 100%;
-  font-family: Helvetica,sans-serif;
+  /*display: absolute;*/
+}
+
+header {
+  width: 100%;
+  display: block;
   background-color: #333447;
 }
 
+.bar {
+  position: fixed;
+  /*display: absolute;*/
+  font-family: Helvetica,sans-serif;
+  background-position: 0 0;
+  /*color: whitesmoke;*/
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .logo {
-  display: inline-block;
-  position: relative;
-  color: #FFF;
-  font-family: Arial Black,sans-serif;
-  font-weight: bolder;
-  font-size: 35px;
   text-align: left!important;
-  list-style: none;
+  position: absolute;
+  top: 20px;
+  margin-left: 100px;
 }
 
-.space {
-  visibility: hidden;
-  display: inline-block;
-  margin-left: 150px;
-  list-style: none;
+#logoWhite {
+  height: 40px;
+  margin-top: 15px;
 }
 
-.menu {
+#logoPink {
+  height: 40px;
+  margin-top: 15px;
+  display: none;
+}
+
+.floatRight {
+  float: right;
+}
+
+.menu, .logIn, .signUp {
   display: inline-block;
   font-weight: 200;
   font-size: 20px;
   text-decoration: none;
   list-style: none;
+  margin: 20px 0 0 20px;
 }
 
-.aMenu {
-  color: whitesmoke;
+.aMenu, .aLogIn, .aSignUp {
+  /*color: whitesmoke;*/
   text-decoration: none;
   padding: 10px;
 }
@@ -40,14 +61,26 @@
 .aMenu:hover {
   color: #ff00bf;
 }
+.colorMenu {
+    color: whitesmoke;
+}
 
-.logIn {
+.logIn, .signUp {
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 8px;
+  white-space: nowrap;
 }
 
 .logIn:hover{
-  background-color: rgb(255, 255, 255, 0);
-  color: #FFF;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.signUp {
+  border: 2px solid #ff00bf;
+  visibility: hidden;
+}
+
+.aSignUp {
+  color: #ff00bf;
 }
