@@ -27,3 +27,17 @@ function navStyleEdit(){
     // }
   }
 }
+
+
+
+
+
+var phone = document.getElementsByClassName("phone-number");
+phone.addEventListener("click", lala);
+
+
+function lala (){
+  var data = document.getElementByClassName("secret");
+  // console.log("ya casiiii");
+  data.style.display = 'block';
+}
