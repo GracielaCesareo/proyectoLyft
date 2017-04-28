@@ -26,4 +26,3 @@
 		iframe3.style.display = "block";
 		iframe3.setAttribute('src','https://www.youtube.com/embed/xj2VWLV0xCU?autoplay=1');
 	}
-
