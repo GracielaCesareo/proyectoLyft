@@ -109,11 +109,18 @@ input{
 .sign-up{
   padding: 10px 15px;
   font-size: 15px;
-  color: #d6d6d6;
+  color: #828fa5;
   background: white;
   text-decoration: underline;
   border: 1px solid white;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.invitation{
+  font-family: "Helvetica";
+  font-size: 10px;
+  color: #828fa5;
+  margin: 30px;
 }
