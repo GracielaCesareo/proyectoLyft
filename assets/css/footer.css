@@ -1,9 +1,12 @@
 footer{
 	background-color: rgb(51,52,71);
 	font-family: Helvetica, sans-serif;
-	position: absolute;
 	width: 100%;
 	color: white;
+}
+.container_footlist {
+	position: absolute;
+	left: 0px;
 }
 .texto{
 	color: white;
@@ -50,7 +53,7 @@ footer{
 hr{
 	width: 40%;
 	position: absolute;
-	top: 445px;
+	top: 50px;
 	left: 300px;
 }
 
