@@ -32,12 +32,11 @@ function navStyleEdit(){
 
 
 
-var phone = document.getElementsByClassName("phone-number");
+var phone = document.getElementsByClassName("phone-number")[0];
 phone.addEventListener("click", lala);
 
 
 function lala (){
-  var data = document.getElementByClassName("secret");
-  // console.log("ya casiiii");
+  var data = document.getElementsByClassName("secret")[0];
   data.style.display = 'block';
 }
