@@ -40,7 +40,7 @@
 .phone-number, .data{
   border: none;
   border-bottom: 1px solid #352384;
-  width: 450px;
+  width: 445px;
   margin: 10px 0 0 25px;
 }
 
@@ -54,7 +54,7 @@ input{
 }
 
 .first-middle, .last-middle{
-  width: 200px;
+  width: 206px;
 }
 
 .promoCode{
@@ -62,6 +62,7 @@ input{
   font-family: "Helvetica";
   color: #c2c2c2;
   margin: 30px;
+  text-decoration: underline;
 }
 
 .promoCode:hover{
@@ -69,32 +70,32 @@ input{
 }
 
 .promo{
-  margin: -50px 0 0 250px;
+  margin: -54px 0 0 236px;
   border: none;
-  border-bottom: 1px solid #352384;
-  width: 225px;
+  width: 215px;
 }
 
-/*
-
-.form{
-  background: white;
-  color: rgb(52, 35, 130);
-  border: 1px solid black;
-  margin-top: 100px;
-  float: right;
-  padding: 30px;
+.check{
+  display: inline;
+  padding: 0;
+  font-family: "Helvetica";
+  font-size: 11px;
+  margin: 10px 30px 5px 25px;
 }
 
-.data{
-  display: block;
-  font-size: 15px;
-  margin: 10px;
-  border: none;
+.pink{
+  color: #ff00bf;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.pink:hover{
+  color: #b8138f;
 }
 
 .button{
   margin-top: 15px;
+  margin-left: 25px;
   padding: 15px 24px;
   font-size: 18px;
   color: white;
@@ -107,11 +108,12 @@ input{
 
 .sign-up{
   padding: 10px 15px;
-  font-size: 13px;
+  font-size: 15px;
   color: #d6d6d6;
   background: white;
+  text-decoration: underline;
   border: 1px solid white;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-}*/
+}
